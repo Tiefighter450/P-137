@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: white !important;
+}
+
+body {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+
+canvas {
+  margin-top: -12%;
+  border-radius: 5px;
+  background-color: turquoise;
+}
+
+.header {
+  width: 100% !important;
+}
+
+.header, .object, .start, #status, #objStatus {
+  color: white !important;
+  width: fit-content;
+  background: rgb(255,0,79);
+  background: linear-gradient(180deg, rgba(255,0,79,1) 0%, rgba(191,0,255,1) 25%, rgba(242,0,255,1) 50%, rgba(255,0,186,1) 75%, rgba(255,0,130,1) 100%);
+  border: 2px double black;
+  border-radius: 5px;
+}
+
+#input {
+  width: 75%;
+  color: white !important;
+  width: fit-content;
+  background: rgb(255,0,79);
+  background: linear-gradient(180deg, rgba(255,0,79,1) 0%, rgba(191,0,255,1) 25%, rgba(242,0,255,1) 50%, rgba(255,0,186,1) 75%, rgba(255,0,130,1) 100%);
+  border: 2px double black;
+  border-radius: 5px;
+}
+
+#status, #objStatus {
+  display: inline;
+}
+
+.copyright-footer {
+  bottom: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  background: rgb(255,0,79);
+  background: linear-gradient(180deg, rgba(255,0,79,1) 0%, rgba(191,0,255,1) 25%, rgba(242,0,255,1) 50%, rgba(255,0,186,1) 75%, rgba(255,0,130,1) 100%);
+}
